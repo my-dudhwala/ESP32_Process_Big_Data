@@ -1,4 +1,4 @@
-# ESP32_Process_Big_Data_Process
+# ESP32_Process_Big_Data
 
 This Arduino sketch for ESP32 is designed for 16MB ESP32 boards(Can also work with 4MB/8MB ESP with default partition scheme, the storage of 27% will not be used), utilizing the default partition scheme of 3MB for APP and 9.9MB for FATFS. The code facilitates the retrieval and processing of fingerprint data stored on a server. The data file it downloads is 3MB, containing information for 750 IDs. This version is an updated iteration of a previous project, where data was manually uploaded to FATFS using tools in the Arduino IDE.
 
